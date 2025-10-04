@@ -23,7 +23,7 @@ with CSV import and CSV export.
 
 2) Import the schema:
    ```bash
-   mysql -u portal_user -p resource_portal < schema.sql
+   mysql -u portal_user -p resource_portal < resource_portal.sql
    ```
 
 3) Update `config.php` with your DB credentials.
