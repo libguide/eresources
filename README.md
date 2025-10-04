@@ -16,7 +16,7 @@ with CSV import and CSV export.
 1) Create a MySQL database (e.g., `resource_portal`) and user.
    ```sql
    CREATE DATABASE resource_portal CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   CREATE USER 'portal_user'@'%' IDENTIFIED BY 'strongpassword';
+   CREATE USER 'portal_user'@'%' IDENTIFIED BY 'addyourpasswordhere';
    GRANT ALL PRIVILEGES ON resource_portal.* TO 'portal_user'@'%';
    FLUSH PRIVILEGES;
    ```
